@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A blue-and-white gaming-inspired creative portfolio.">
+  <meta name="theme-color" content="#1759ee">
+  <title>Ralsane's gaming website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="indie.css">
+  <link rel="stylesheet" href="tabs.css">
+  <link rel="stylesheet" href="polish.css">
+  <link rel="preload" href="assets/chewy.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="script.js" defer></script>
+  <script src="tabs.js" defer></script>
+  <script src="music.js" defer></script>
+  <script src="sounds.js" defer></script>
+</head>
+<body>
+  <div class="environment" aria-hidden="true">
+    <div class="sky-cloud cloud-a"></div><div class="sky-cloud cloud-b"></div><div class="sky-cloud cloud-c"></div>
+    <svg viewBox="0 0 480 180" preserveAspectRatio="none" shape-rendering="crispEdges"><path fill="#a5c7ec" d="M0 110H20V95H40V70H60V50H80V30H100V50H120V75H140V95H160V110H180V90H200V70H220V50H240V30H260V10H280V30H300V60H320V80H340V110H360V90H380V70H400V50H420V80H440V100H460V110H480V180H0Z"/><path fill="#e3f1ff" d="M60 50H80V30H100V50H110V60H90V50H80V60H60Z M240 30H260V10H280V30H290V40H270V30H260V40H240Z"/><path fill="#77a4d7" d="M0 145H30V130H60V120H90V130H120V145H180V130H210V115H250V130H280V145H320V125H350V110H380V125H410V140H450V125H480V180H0Z"/><path fill="#527eae" d="M0 170H480V180H0Z"/><g fill="#426e9c"><path d="M15 160H25V125H35V110H45V95H55V110H65V125H75V140H60V150H75V160H55V180H35V160Z"/><path d="M401 160H411V135H421V120H431V105H441V120H451V135H461V150H446V160H461V170H441V180H421V170H401Z"/></g></svg>
+  </div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Ralsane's home"><span class="brand-icon">R</span> Ralsane<span class="blue">'s</span><i></i></a>
+    <nav aria-label="Portfolio tabs" role="tablist"><a id="tab-home" role="tab" href="#home" class="active" aria-selected="true" aria-controls="home"><span class="nav-icon">⌂</span> Home</a><a id="tab-about" role="tab" href="#about" aria-selected="false" aria-controls="about" tabindex="-1"><span class="nav-icon">♟</span> About</a><a id="tab-projects" role="tab" href="#projects" aria-selected="false" aria-controls="projects" tabindex="-1"><span class="nav-icon">▣</span> Projects</a><a id="tab-contact" role="tab" href="#contact" aria-selected="false" aria-controls="contact" tabindex="-1"><span class="nav-icon">✉</span> Contact</a></nav>
+    <span class="status"><i></i> SAVE POINT: HOME</span>
+  </header>
+
+  <div class="game-window">
+    <div class="window-toolbar"><span><i></i> RALSANE’S WORLD / <span id="scene-name">HOME</span></span><span class="window-dots" aria-hidden="true">▪ ▪ ×</span></div>
+    <main id="tab-stage">
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="tiny-cross">✦</span> A LITTLE CORNER OF MY WORLD</div>
+        <h1>Small pixels.<br>Big ideas.<br><span class="blue">Let’s play<span class="period">!</span></span></h1>
+        <p>Hey, welcome to Ralsane's! A cozy little space for<br>games, creative experiments, and things I love making.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↗</span></a><a class="text-button" href="#about">Meet Ralsane <span>→</span></a></div>
+        <div class="hero-footer"><span><i></i> RALSANE'S / LITTLE CREATIVE WORLD</span><a href="#about">OPEN PLAYER PROFILE <span>↓</span></a></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Pixel art of a tiny blue adventurer in a floating island world">
+        <div class="art-top"><span>RALSANE'S</span><span>EST. 2026 &nbsp; +</span></div>
+        <span class="giant-one" aria-hidden="true">01</span><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <svg class="pixel-scene" viewBox="0 0 160 140" role="img" aria-label="A little blue pixel adventurer on a floating island" shape-rendering="crispEdges">
+          <path fill="#dceeff" d="M0 0H160V140H0Z"/>
+          <g fill="#fff"><path d="M14 22H20V18H35V22H42V28H14Z"/><path d="M109 34H116V28H135V34H145V40H109Z"/><path d="M66 12H70V8H79V12H83V16H66Z"/></g>
+          <g fill="#80b2ed"><path d="M0 87H9V78H18V68H26V60H35V71H43V81H52V91H0Z"/><path d="M104 91V80H113V70H121V60H129V53H137V65H145V75H153V84H160V102H104Z"/></g>
+          <path fill="#b0d1f6" d="M0 99H20V91H36V83H50V92H67V102H91V94H105V87H117V96H140V105H160V140H0Z"/>
+          <path fill="#f9fcff" d="M25 60H35V71H30V67H25Z M129 53H137V65H133V61H129Z"/>
+          <g class="pixel-sparkles" fill="#386ec7"><path d="M51 39H54V36H57V39H60V42H57V45H54V42H51Z M112 14H114V12H116V14H118V16H116V18H114V16H112Z"/></g>
+          <ellipse cx="80" cy="128" rx="39" ry="4" fill="#81aee0" opacity=".4"/>
+          <g class="island"><path fill="#234d91" d="M35 99H125V106H119V115H109V122H96V130H67V124H54V116H43V108H35Z"/>
+          <path fill="#5381c5" d="M42 103H118V110H109V117H96V123H69V117H56V110H42Z"/>
+          <path fill="#b5d6f7" d="M29 92H38V86H121V92H131V100H121V105H38V100H29Z"/>
+          <path fill="#679ee0" d="M29 97H131V101H121V106H38V101H29Z"/>
+          <path fill="#e8f6ff" d="M38 86H121V91H38Z M45 96H54V99H45Z M105 94H114V97H105Z"/>
+          <path fill="#3e79b9" d="M46 84H49V76H52V84H55V88H46Z M110 85H113V79H116V85H119V89H110Z"/>
+          <path fill="#fff" d="M44 73H48V69H52V73H56V77H52V81H48V77H44Z"/><path fill="#457bd1" d="M48 73H52V77H48Z"/>
+          <g class="pixel-friend"><path fill="#204786" d="M68 49H89V54H95V76H90V85H67V78H62V56H68Z"/>
+          <path fill="#497fe0" d="M69 52H87V57H92V74H87V81H69V75H65V58H69Z"/>
+          <path fill="#e5f4ff" d="M69 58H88V71H69Z"/><path fill="#193c77" d="M72 61H75V66H72Z M82 61H85V66H82Z"/>
+          <path fill="#9dc5ff" d="M72 71H85V75H72Z"/><path fill="#193c77" d="M68 81H75V87H65V84H68Z M82 81H89V87H82Z"/>
+          <path fill="#8db6f8" d="M69 52H87V55H69Z"/><path fill="#e5f4ff" d="M77 45H80V49H77Z M80 42H85V45H80Z"/></g>
+          </g>
+        </svg>
+        <div class="floating-label"><span>✦</span><div>NEW ADVENTURE<br><strong>PRESS START!</strong></div></div>
+        <div class="art-bottom"><span><i></i> TAKE A BREAK. STAY A WHILE.</span><span>✦</span></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><span>DESIGN</span>✦<span>CREATE</span>✦<span>PLAY</span>✦<span>LEVEL UP</span>✦<span>DESIGN</span>✦<span>CREATE</span>✦<span>PLAY</span>✦</div>
+
+    <section class="section about" id="about">
+      <figure class="profile-photo"><div class="photo-bar"><span>PLAYER PROFILE</span><span>01 / RALSANE</span></div><img src="assets/ralsane.png" alt="Ralsane holding a camera in a mirror portrait" width="684" height="904"><figcaption>THE CREATIVE BEHIND THE PIXELS ✦</figcaption></figure>
+      <div class="profile-story"><div class="eyebrow">01 / MEET THE CREATOR</div><h2>Hey, I’m<br><span class="blue">Ralsane.</span></h2><div class="graduate-badge">✦ MAPÚA UNIVERSITY <span>MULTIMEDIA GRADUATE · CUM LAUDE</span></div><div class="about-copy"><p>I’m Ralsane, a multimedia graduate from Mapúa University, where I graduated cum laude. I love turning the ideas in my head into visuals with personality, a little imagination, and a story to tell.</p><p>Graphic design is close to my heart, but my curiosity takes me into animation, 3D environments, and illustration, too. Whether I’m building a world in Blender or drawing fanart, I enjoy bringing something new to life.</p><p>Games and the characters I love keep me inspired. This is my little space to share that creativity — one frame, one design, and one pixel at a time.</p></div><div class="skills"><span>✦ GRAPHIC DESIGN</span><span>▧ 3D ENVIRONMENTS</span><span>▷ ANIMATION</span><span>✎ ILLUSTRATION</span></div></div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading"><div><div class="eyebrow">02 / THE INVENTORY</div><h2>My creative <span class="blue">quests.</span></h2></div><span class="section-note">3D WORLDS, ANIMATED STORIES & FANART ↙</span></div>
+      <div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all" aria-pressed="true">ALL WORK <span>03</span></button><button class="filter" data-filter="3d" aria-pressed="false">3D ENVIRONMENT</button><button class="filter" data-filter="animation" aria-pressed="false">ANIMATION</button><button class="filter" data-filter="illustration" aria-pressed="false">FANART</button></div>
+      <div class="project-grid">
+        <button class="project-card" data-category="3d" data-project="0"><div class="project-image real-art"><img src="assets/castle-crashers.png" alt="Floating castle towers with orange roofs among cliffs and clouds" width="1920" height="1080"><span class="sample">QUEST 01 / BLENDER</span><span class="preview-arrow">↗</span></div><div class="project-info"><div><span>BLENDER / 3D ENVIRONMENT</span><h3>Castle Crashers</h3><p>A castle above the clouds — a stylized 3D environment made to set the scene for an adventure.</p></div><span class="card-open">View project ↗</span></div></button>
+        <button class="project-card" data-category="animation" data-project="1"><div class="project-image real-art"><img src="assets/animators-dream.png" alt="An illustrated frame of two smiling students posing together outdoors" width="1500" height="1200"><span class="sample">QUEST 02 / ADOBE ANIMATE</span><span class="preview-arrow">↗</span></div><div class="project-info"><div><span>ADOBE ANIMATE / ANIMATION</span><h3>A Frame of an Animator’s Dream</h3><p>A glimpse into my animation work, where expressive characters and everyday moments become a story.</p></div><span class="card-open">View project ↗</span></div></button>
+        <button class="project-card" data-category="illustration" data-project="2"><div class="project-image real-art"><img src="assets/fanart.jpg" alt="Fanart of a smiling blond character surrounded by floating playing cards" width="3063" height="2160"><span class="sample">QUEST 03 / ILLUSTRATION</span><span class="preview-arrow">↗</span></div><div class="project-info"><div><span>DIGITAL ILLUSTRATION / FANART</span><h3>Making Fanarts</h3><p>A little love letter to the characters that inspire me, reimagined through color, expression, and my own style.</p></div><span class="card-open">View project ↗</span></div></button>
+      </div><p class="demo-note" id="project-count" role="status">3 projects to explore. Pick one to see the full artwork and its story.</p>
+    </section>
+
+    <section class="section contact reveal" id="contact"><div><div class="eyebrow">03 / NEXT MISSION</div><h2>Great things start<br>with <span>a hello.</span></h2><p>Have an idea? Let’s create something worth playing.</p></div><button class="button contact-button" id="contact-open">Let’s talk <span>↗</span></button></section>
+    </main>
+    <div class="pixel-transition" aria-hidden="true"></div>
+    <div class="window-status"><span id="scene-status" role="status">HOME LOADED — WELCOME, ADVENTURER!</span><span>✦ &nbsp; SELECT YOUR NEXT ADVENTURE</span></div>
+  </div>
+  <footer class="footer"><a class="brand" href="#home">Ralsane<span class="blue">'s</span><i></i></a><span>© <span id="year">2026</span> RALSANE'S. BUILT WITH CREATIVITY.</span><a href="#home">RETURN HOME ⌂</a></footer>
+
+  <dialog id="project-dialog"><button class="close" aria-label="Close project">×</button><div class="eyebrow">RALSANE’S PROJECT JOURNAL</div><h2 id="dialog-title"></h2><img id="dialog-artwork" alt=""><p id="dialog-description"></p><div class="dialog-tags" id="dialog-tags"></div><p class="dialog-note" id="dialog-media-note"></p><button class="button primary dialog-done">Back to projects <span>↗</span></button></dialog>
+  <dialog id="contact-dialog"><button class="close" aria-label="Close contact">×</button><div class="eyebrow">LET’S CONNECT</div><h2>Your next<br><span class="blue">teammate.</span></h2><p>This portfolio is ready for your contact details. Add your email below to personalize the “Let’s talk” button.</p><label for="email">YOUR CONTACT EMAIL</label><form id="email-form"><input id="email" type="email" placeholder="you@example.com" required autocomplete="email"><button class="button primary" type="submit">SAVE EMAIL <span>↗</span></button></form><p id="email-status" role="status">Saved only in this browser. No message is sent.</p></dialog>
+  <div class="music-bar" role="region" aria-label="Website soundtrack player">
+    <audio id="site-ost" src="assets/start-menu.mp3" loop preload="metadata"></audio>
+    <button id="music-toggle" type="button" aria-label="Play background music" aria-pressed="false"><span id="music-icon" aria-hidden="true">▶</span><span id="music-action">PLAY</span></button>
+    <div class="track-info"><span class="track-title">START MENU <span class="track-credit">/ UNDERTALE · TOBY FOX</span></span><span id="music-status" role="status">PRESS PLAY TO START THE SOUNDTRACK</span></div>
+    <button id="sfx-toggle" type="button" aria-label="Toggle interface sound effects" aria-pressed="true">SFX ON</button>
+    <div class="volume-control"><label for="music-volume">VOLUME</label><input id="music-volume" type="range" min="0" max="100" step="1" value="35" aria-label="Music and sound effects volume"><output id="volume-level" for="music-volume">35%</output></div>
+  </div>
+</body>
+</html>
